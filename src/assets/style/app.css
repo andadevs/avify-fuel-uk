@@ -5,16 +5,7 @@ h3 {
   padding: 0;
 }
 
-@font-face {
-  font-family: "Lato Font Regular";
-  src: url("../font/lato-regular.ttf");
-}
-@font-face {
-  font-family: "Roboto Light Font";
-  src: url("../font/Roboto-Light.ttf");
-}
-
 html {
-  background-color: #141627;
-  font-family: "Lato Font Regular";
+  background-color: var(--base-color);
+  font-family: var(--base-font);
 }

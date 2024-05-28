@@ -5,11 +5,11 @@
 }
 .header .text {
   font-size: 30px;
-  color: #f5f1fb;
+  color: var(--header-text-color);
   font-family: "Roboto Light Font";
 }
 .header .circle {
-  background-color: #8763ba;
+  background-color: var(--header-circle-bg-color);
   display: block;
   width: 10px;
   height: 10px;

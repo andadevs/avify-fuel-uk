@@ -6,7 +6,7 @@
 }
 .statistic-card {
   border-radius: 30px;
-  background-color: #1c1f36;
+  background-color: var(--statistic-card-bg-color);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -16,33 +16,34 @@
 }
 .statistic-card .card-header {
   font-size: 22px;
-  color: #999da9;
+  color: var(--statistic-card-text-color);
   text-align: left;
 }
 .statistic-card .big-number .value {
   font-size: 100px;
-  color: #999da9;
+  color: var(--statistic-card-text-color);
   font-weight: 300;
+  word-wrap: break-word;
 }
 .statistic-card .big-number .unity {
   font-size: 22px;
-  color: #0cbe93;
+  color: var(--statistic-card-unity-color);
 }
 .statistic-card .card-title {
   font-size: 30px;
-  color: #948326;
+  color: var(--statistic-card-title-color);
 }
 .statistic-card .icon-container {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #948326;
+  background-color: var(--statistic-card-icon-container-bg-color);
   padding: 10px 10px 20px 20px;
   border-radius: 0 0 0 60px;
-  border-left: 5px solid #6b6029;
-  border-bottom: 5px solid #6b6029;
+  border-left: 5px solid var(--statistic-card-icon-container-border-color);
+  border-bottom: 5px solid var(--statistic-card-icon-container-border-color);
 }
 .statistic-card .icon-container .icon-box {
   font-size: 30px;
-  color: #6b6029;
+  color: var(--statistic-card-icon-color);
 }

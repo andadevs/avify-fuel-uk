@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Lato Font Regular";
+  src: url("../font/lato-regular.ttf");
+}
+@font-face {
+  font-family: "Roboto Light Font";
+  src: url("../font/Roboto-Light.ttf");
+}
+
+:root {
+  --base-font: "Lato Font Regular";
+  --secundary-font: "Robot Light Font";
+  --base-color: #141627;
+  --secundary-color: #1c1f36;
+  /* ATOMS */
+  /* change-view */
+  --change-view-active-light-color: #93e416;
+  --change-view-active-dark-color: #5a6f3a;
+  --change-view-inactive-light-color: #a7b9ed;
+  --change-view-inactive-dark-color: #6479b8;
+  /* header */
+  --header-text-color: #f5f1fb;
+  --header-circle-bg-color: #8763ba;
+  /* statistic-card */
+  --statistic-card-bg-color: var(--secundary-color);
+  --statistic-card-text-color: #999da9;
+  --statistic-card-unity-color: #0cbe93;
+  --statistic-card-title-color: #948326;
+  --statistic-card-icon-container-bg-color: #948326;
+  --statistic-card-icon-container-border-color: #6b6029;
+  --statistic-card-icon-color: #6b6029;
+}
