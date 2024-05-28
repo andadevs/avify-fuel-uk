@@ -3,6 +3,7 @@ import { Switch } from "antd";
 import { BarChartOutlined, WindowsOutlined } from "@ant-design/icons";
 import "./style.css";
 import { IChangeViewProps } from "./type";
+import clsx from "clsx";
 
 const ChangeView: FC<IChangeViewProps> = ({ changeHandler }) => {
   const [enabled, setEnabled] = useState(true);
@@ -14,9 +15,11 @@ const ChangeView: FC<IChangeViewProps> = ({ changeHandler }) => {
 
   return (
     <div className="change-view">
-      <span className="label">Change View</span>
+      <span className={clsx("label", enabled ? "active" : "inactive")}>
+        Change View
+      </span>
       <Switch
-        className="switch"
+        className={clsx("switch", enabled ? "active" : "inactive")}
         checkedChildren={<WindowsOutlined />}
         unCheckedChildren={<BarChartOutlined />}
         value={enabled}

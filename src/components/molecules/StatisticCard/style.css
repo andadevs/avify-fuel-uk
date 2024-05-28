@@ -12,6 +12,7 @@
   position: relative;
   padding: 20px;
   min-width: 200px;
+  transition: all 0.2 ease-in-out;
 }
 .statistic-card .card-header {
   font-size: 22px;

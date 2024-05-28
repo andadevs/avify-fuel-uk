@@ -2,6 +2,21 @@
   display: flex;
   gap: 10px;
 }
-.change-view .label {
-  color: #c5d034;
+.change-view .label.active {
+  color: #93e416;
+}
+.change-view .label.inactive {
+  color: #a7b9ed;
+}
+.change-view .switch.active .ant-switch-handle::before {
+  background-color: #93e416;
+}
+.change-view .switch.active {
+  background-color: #5a6f3a !important;
+}
+.change-view .switch.inactive .ant-switch-handle::before {
+  background-color: #a7b9ed;
+}
+.change-view .switch.inactive {
+  background-color: #6479b8 !important;
 }
