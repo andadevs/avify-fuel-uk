@@ -1,7 +1,8 @@
 import React from "react";
+import StatisticCardList from "../../organisms/StatisticCardList";
 
 const GenerationPage = () => {
-  return <p>Generation Page</p>;
+  return <StatisticCardList />;
 };
 
 export default GenerationPage;
