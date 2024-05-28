@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 60px;
 }
 .statistic-card {
-  border-radius: 10px;
-  background-color: #212a45;
+  border-radius: 30px;
+  background-color: #1c1f36;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -19,11 +19,12 @@
   text-align: left;
 }
 .statistic-card .big-number .value {
-  font-size: 80px;
+  font-size: 100px;
   color: #999da9;
+  font-weight: 300;
 }
 .statistic-card .big-number .unity {
-  font-size: 15px;
+  font-size: 22px;
   color: #0cbe93;
 }
 .statistic-card .card-title {

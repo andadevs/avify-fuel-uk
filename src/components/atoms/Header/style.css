@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header .text {
+  font-size: 30px;
+  color: #f5f1fb;
+  font-family: "Roboto Light Font";
+}
+.header .circle {
+  background-color: #8763ba;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}

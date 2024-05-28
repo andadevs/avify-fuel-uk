@@ -1,0 +1,7 @@
+.change-view {
+  display: flex;
+  gap: 10px;
+}
+.change-view .label {
+  color: #c5d034;
+}

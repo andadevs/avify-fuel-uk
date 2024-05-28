@@ -4,12 +4,7 @@ import { useListCurrentGenerations } from "../../../shared/hooks/use-list-genera
 import { GENERATION_ICONS } from "../../../shared/contants/generatio";
 
 const StatisticCardList = () => {
-  const { data, error } = useListCurrentGenerations();
-
-  useEffect(() => {
-    if (data) console.log("data", data);
-    if (error) console.log("error", error);
-  }, [data, error]);
+  const { data } = useListCurrentGenerations();
 
   return (
     <div className="statistic-card-container">
