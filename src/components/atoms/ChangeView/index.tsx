@@ -19,6 +19,7 @@ const ChangeView: FC<IChangeViewProps> = ({ changeHandler }) => {
         Change View
       </span>
       <Switch
+        data-testid="change-view-switch"
         className={clsx("switch", enabled ? "active" : "inactive")}
         checkedChildren={<WindowsOutlined />}
         unCheckedChildren={<BarChartOutlined />}

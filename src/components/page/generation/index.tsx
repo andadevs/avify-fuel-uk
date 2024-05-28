@@ -16,7 +16,7 @@ const GenerationPage = () => {
   return (
     <PageContainer>
       <PageHeader>
-        <Header title="Generation" />
+        <Header title="" />
         <ChangeView changeHandler={changeViewHandler} />
       </PageHeader>
       {isDefaultView ? <StatisticCardList /> : <StatisticChart />}
